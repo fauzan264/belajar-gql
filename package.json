@@ -1,0 +1,25 @@
+{
+  "name": "nosql",
+  "version": "1.0.0",
+  "description": "\"# belajar-gql\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fauzan264/belajar-gql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fauzan264/belajar-gql/issues"
+  },
+  "homepage": "https://github.com/fauzan264/belajar-gql#readme",
+  "dependencies": {
+    "apollo-server": "^3.10.1",
+    "graphql": "^16.6.0",
+    "mongoose": "^6.5.3"
+  }
+}
