@@ -19,6 +19,7 @@
   "homepage": "https://github.com/fauzan264/belajar-gql#readme",
   "dependencies": {
     "apollo-server": "^3.10.1",
+    "apollo-server-core": "^3.10.2",
     "graphql": "^16.6.0",
     "mongoose": "^6.5.3"
   }
