@@ -10,6 +10,16 @@ query GetAllBooks {
     }
 }
 
+# Get Book
+query {
+    getBook(_id: "") {
+        _id,
+        title,
+        description,
+        release_year
+    }
+}
+
 # Update
 mutation {
     updateBook (
