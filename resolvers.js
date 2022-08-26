@@ -15,6 +15,11 @@ module.exports = {
         updateBook: async(_, args) => {
             const book = await BookModel.findByIdAndUpdate(args._id, args, { new: true });
             return book;
+        },
+
+        deleteBook: async(_, args) => {
+            const book = await BookModel.findByIdAndRemove(args._id);
+            return book ? true : false;
         }
     }
 }

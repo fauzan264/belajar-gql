@@ -1,0 +1,29 @@
+# Get All data
+query GetAllBooks {
+    getAllBooks {
+        _id
+        title
+        author
+        description
+        release_year
+        genre
+    }
+}
+
+# Update
+mutation {
+    updateBook (
+        _id: "63092cee5237dfa874493c07",
+        title: "Belajar GraphQL semudah tersenyum"
+    ) {
+        _id,
+        title
+    }
+}
+
+# Delete
+mutation {
+    deleteBook (
+        _id: "63092cee5237dfa874493c07"
+    )
+}
