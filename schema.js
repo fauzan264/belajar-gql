@@ -7,7 +7,7 @@ const typeDefs = gql`
         author: String!,
         description: String,
         release_year: Int!,
-        genre: String!,
+        genre: String!
     }
 
     type Query {
@@ -20,7 +20,16 @@ const typeDefs = gql`
             author: String!,
             description: String,
             release_year: Int!,
-            genre: String!,
+            genre: String!
+        ): Book!
+
+        updateBook (
+            _id: ID!,
+            title: String,
+            author: String,
+            description: String,
+            release_year: Int,
+            genre: String
         ): Book!
     }
 `;
